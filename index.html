@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bandaru Kalyan Chakravarthi | Data Science Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Bandaru Kalyan Chakravarthi – Data Science fresher skilled in Python, ML, Web Development, and Data Analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ── Cursor Glow ── -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ── Navbar ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-initials">BKC</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn-hire">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Open to Opportunities
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Bandaru Kalyan</span>
+        <br />Chakravarthi
+      </h1>
+      <p class="hero-subtitle typewriter" id="typewriter"></p>
+      <p class="hero-desc">
+        Enthusiastic Data Science fresher passionate about turning raw data into impactful insights, building
+        intelligent ML models, and crafting full-stack web applications.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="mailto:kalyan chakravarthi4133@gmail.com" class="btn-secondary">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">8.26</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-wrapper">
+        <div class="avatar-ring ring-1"></div>
+        <div class="avatar-ring ring-2"></div>
+        <div class="avatar-ring ring-3"></div>
+        <div class="avatar-core">
+          <span class="avatar-initials">BKC</span>
+        </div>
+        <div class="floating-chip chip-1">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          Python
+        </div>
+        <div class="floating-chip chip-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" />
+            <path
+              d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          ML
+        </div>
+        <div class="floating-chip chip-3">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" />
+            <path d="M3 9h18M9 3v18" stroke="currentColor" stroke-width="2" />
+          </svg>
+          SQL
+        </div>
+        <div class="floating-chip chip-4">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          React
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════ -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Passion Meets <span class="gradient-text">Purpose</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <div class="about-icon">🎓</div>
+          <h3>Education</h3>
+          <div class="edu-item">
+            <div class="edu-degree">BE/B.Tech in Data Science</div>
+            <div class="edu-school">Anurag University, Hyderabad</div>
+            <div class="edu-meta">
+              <span class="edu-year">2021 – 2025</span>
+              <span class="edu-grade grade-highlight">CGPA: 8.26/10</span>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-degree">12th Standard (Intermediate)</div>
+            <div class="edu-school">Narayana Junior College, Hyderabad</div>
+            <div class="edu-meta">
+              <span class="edu-year">2019 – 2021</span>
+              <span class="edu-grade">85%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card reveal" style="--delay:0.15s">
+          <div class="about-icon">🏆</div>
+          <h3>Achievements</h3>
+          <ul class="achievement-list">
+            <li>
+              <span class="ach-icon">🥇</span>
+              <div>
+                <strong>1st Place – Book Exchange Portal</strong>
+                <p>Won 1st prize at University Expo 2024</p>
+              </div>
+            </li>
+            <li>
+              <span class="ach-icon">🌟</span>
+              <div>
+                <strong>Young Turks – Top 95.81%</strong>
+                <p>Naukri Campus, India's largest skill contest</p>
+              </div>
+            </li>
+            <li>
+              <span class="ach-icon">🏅</span>
+              <div>
+                <strong>Certificate of Excellence – GFG CEO</strong>
+                <p>Outstanding contribution & leadership</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal" style="--delay:0.3s">
+          <div class="about-icon">📍</div>
+          <h3>At a Glance</h3>
+          <ul class="glance-list">
+            <li><span class="glance-icon">📌</span> Hyderabad, Telangana – 500098</li>
+            <li><span class="glance-icon">📞</span> +91 7995675560</li>
+            <li><span class="glance-icon">✉️</span> kalyanchakravarthi4133@gmail.com</li>
+            <li>
+              <span class="glance-icon">🔗</span>
+              <a href="https://github.com/Kalayn4133" target="_blank" rel="noopener">GitHub: Kalayn4133</a>
+            </li>
+            <li>
+              <span class="glance-icon">💼</span>
+              <a href="https://www.linkedin.com/in/bandaru-kalyan-chakravarthi/" target="_blank" rel="noopener">LinkedIn
+                Profile</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SKILLS
+  ══════════════════════════════════════ -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Arsenal</span>
+        <h2 class="section-title">Skills & <span class="gradient-text">Expertise</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">💻</div>
+            <h3>Programming Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-primary">Python</span>
+            <span class="skill-tag tag-primary">SQL</span>
+            <span class="skill-tag tag-primary">HTML</span>
+            <span class="skill-tag tag-primary">CSS</span>
+            <span class="skill-tag tag-primary">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal" style="--delay:0.1s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📊</div>
+            <h3>Data Analysis</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-blue">Data Cleaning</span>
+            <span class="skill-tag tag-blue">EDA</span>
+            <span class="skill-tag tag-blue">ML Algorithms</span>
+            <span class="skill-tag tag-blue">Reporting</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal" style="--delay:0.2s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🚀</div>
+            <h3>Software Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-green">OOP</span>
+            <span class="skill-tag tag-green">DSA</span>
+            <span class="skill-tag tag-green">API Development</span>
+            <span class="skill-tag tag-green">Git / Version Control</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal" style="--delay:0.3s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🗄️</div>
+            <h3>Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-purple">MySQL</span>
+            <span class="skill-tag tag-purple">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal" style="--delay:0.4s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">📈</div>
+            <h3>Data Visualization</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-orange">Tableau</span>
+            <span class="skill-tag tag-orange">Excel</span>
+            <span class="skill-tag tag-orange">Power BI</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal" style="--delay:0.5s">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">🧠</div>
+            <h3>Additional Skills</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag tag-pink">Agile Methodologies</span>
+            <span class="skill-tag tag-pink">Networking Fundamentals</span>
+            <span class="skill-tag tag-pink">Gen AI</span>
+            <span class="skill-tag tag-pink">Leadership</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Proficiency Bars -->
+      <div class="proficiency reveal" style="--delay:0.2s">
+        <h3 class="proficiency-title">Core Proficiencies</h3>
+        <div class="prof-bars">
+          <div class="prof-bar-item">
+            <div class="prof-label"><span>Python</span><span>90%</span></div>
+            <div class="prof-track">
+              <div class="prof-fill" data-width="90" style="--color:#a78bfa"></div>
+            </div>
+          </div>
+          <div class="prof-bar-item">
+            <div class="prof-label"><span>Machine Learning</span><span>80%</span></div>
+            <div class="prof-track">
+              <div class="prof-fill" data-width="80" style="--color:#60a5fa"></div>
+            </div>
+          </div>
+          <div class="prof-bar-item">
+            <div class="prof-label"><span>SQL / Databases</span><span>85%</span></div>
+            <div class="prof-track">
+              <div class="prof-fill" data-width="85" style="--color:#34d399"></div>
+            </div>
+          </div>
+          <div class="prof-bar-item">
+            <div class="prof-label"><span>Data Visualization</span><span>78%</span></div>
+            <div class="prof-track">
+              <div class="prof-fill" data-width="78" style="--color:#fb923c"></div>
+            </div>
+          </div>
+          <div class="prof-bar-item">
+            <div class="prof-label"><span>Web Development</span><span>75%</span></div>
+            <div class="prof-track">
+              <div class="prof-fill" data-width="75" style="--color:#f472b6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PROJECTS
+  ══════════════════════════════════════ -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-number">01</div>
+            <div class="project-tags-top">
+              <span class="project-badge badge-ai">AI / Deep Learning</span>
+            </div>
+          </div>
+          <h3 class="project-title">Diabetic Retinopathy Detection using Vision Transformers</h3>
+          <p class="project-date">Jun 2024 – Sept 2024</p>
+          <p class="project-description">
+            Developed a Vision Transformer-based system for diabetic retinopathy detection, processing <strong>5,000+
+              fundus images</strong>. Achieved <strong>92.5% accuracy</strong>, improving early detection rates and
+            reducing risk of blindness. Deployed a Flask-based web interface for instant prediction uploads.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">TensorFlow</span>
+            <span class="tech-chip">Deep Learning</span>
+            <span class="tech-chip">Flask</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-val">5,000+</span>
+              <span class="highlight-lbl">Fundus Images</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-val">92.5%</span>
+              <span class="highlight-lbl">Accuracy</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal" style="--delay:0.15s">
+          <div class="project-header">
+            <div class="project-number">02</div>
+            <div class="project-tags-top">
+              <span class="project-badge badge-ml">ML / Finance</span>
+            </div>
+          </div>
+          <h3 class="project-title">Realized Volatility Prediction of Stock Price</h3>
+          <p class="project-date">Nov 2024 – Mar 2025</p>
+          <p class="project-description">
+            Designed an NSE-inspired stock prediction web app using <strong>LSTM and MKL</strong>, enabling real-time
+            OHLC chart visualization for <strong>10 stock products</strong>. Delivered actionable insights for trading
+            decisions with interactive dashboards.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">Python</span>
+            <span class="tech-chip">LSTM</span>
+            <span class="tech-chip">MKL</span>
+            <span class="tech-chip">Regression</span>
+            <span class="tech-chip">Flask</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-val">10</span>
+              <span class="highlight-lbl">Stock Products</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-val">Real-time</span>
+              <span class="highlight-lbl">OHLC Charts</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal" style="--delay:0.3s">
+          <div class="project-header">
+            <div class="project-number">03</div>
+            <div class="project-tags-top">
+              <span class="project-badge badge-data">Data Analysis</span>
+            </div>
+          </div>
+          <h3 class="project-title">Exploratory Data Analysis of Spotify Data</h3>
+          <p class="project-date">Analytical Project</p>
+          <p class="project-description">
+            Analysed <strong>1,000+ song records</strong> to identify trends in popularity, duration, and genre
+            preferences using R and ggplot2. Delivered insightful visual reports on the academic influence of music on
+            analytics; uncovering meaningful patterns.
+          </p>
+          <div class="project-tech">
+            <span class="tech-chip">R</span>
+            <span class="tech-chip">ggplot2</span>
+            <span class="tech-chip">EDA</span>
+          </div>
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <span class="highlight-val">1,000+</span>
+              <span class="highlight-lbl">Song Records</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-val">Visual</span>
+              <span class="highlight-lbl">Insights</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CERTIFICATIONS
+  ══════════════════════════════════════ -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">Certifications & <span class="gradient-text">Learning</span></h2>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card reveal">
+          <div class="cert-logo tcs">TCS</div>
+          <div class="cert-body">
+            <h4>TCS ION Career Edge – Young Professional</h4>
+            <span class="cert-issuer">TCS ION</span>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal" style="--delay:0.1s">
+          <div class="cert-logo cisco">CISCO</div>
+          <div class="cert-body">
+            <h4>Python Essentials 1 & 2</h4>
+            <span class="cert-issuer">Cisco Networking Academy</span>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal" style="--delay:0.2s">
+          <div class="cert-logo pcap">PCAP</div>
+          <div class="cert-body">
+            <h4>PCAP – Programming Essentials in Python</h4>
+            <span class="cert-issuer">Open-EDG</span>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal" style="--delay:0.3s">
+          <div class="cert-logo infosys">Infosys</div>
+          <div class="cert-body">
+            <h4>Data Structures</h4>
+            <span class="cert-issuer">Infosys Springboard</span>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal" style="--delay:0.4s">
+          <div class="cert-logo udemy">Udemy</div>
+          <div class="cert-body">
+            <h4>Deep Learning</h4>
+            <span class="cert-issuer">Udemy</span>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+
+        <div class="cert-card reveal" style="--delay:0.5s">
+          <div class="cert-logo simpli">Simplilearn</div>
+          <div class="cert-body">
+            <h4>Software Testing</h4>
+            <span class="cert-issuer">Simplilearn & Edureka</span>
+          </div>
+          <div class="cert-check">✓</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════ -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-subtitle">Open to full-time roles, internships, and collaborations in Data Science and Web
+          Development.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <h3>Contact Information</h3>
+          <div class="contact-items">
+            <a href="mailto:kalyanchakravarthi4133@gmail.com" class="contact-item">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    stroke="currentColor" stroke-width="2" />
+                  <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </div>
+              <span>kalyanchakravarthi4133@gmail.com</span>
+            </a>
+            <a href="tel:+917995675560" class="contact-item">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.09-1.09a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.02z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <span>+91 7995675560</span>
+            </a>
+            <a href="https://github.com/Kalyan4133" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </div>
+              <span>github.com/Kalyan4133</span>
+            </a>
+            <a href="https://www.linkedin.com/in/bandaru-kalyan-chakravarthi/" target="_blank" rel="noopener"
+              class="contact-item">
+              <div class="contact-icon-wrap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                  <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+              <span>LinkedIn Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" style="--delay:0.2s" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="username@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Job Opportunity / Collaboration" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Hi Kalyan, I'd love to connect about..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit" id="submitBtn">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <line x1="22" y1="2" x2="11" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">BKC</div>
+      <p class="footer-copy">© 2025 Bandaru Kalyan Chakravarthi. Crafted with ❤️ and lots of ☕</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Kalyan4133" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/bandaru-kalyan-chakravarthi/" target="_blank" rel="noopener"
+          aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <rect x="2" y="9" width="4" height="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <circle cx="4" cy="4" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a href="mailto:kalyanchakravarthi4133@gmail.com" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor"
+              stroke-width="2" />
+            <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
